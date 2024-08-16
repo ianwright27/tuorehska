@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abigail 💗</title> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js"></script> 
+    <!-- jsDelivr  -->
+    <script src="https://cdn.jsdelivr.net/npm/fireworks-js@2.x/dist/index.umd.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head> 
+<body>
+    <audio id="rizzMusic" src="assets/song.mp3" preload="auto"></audio>
+    <div class="main">
+        <div class="ui-one"> 
+            <div class="question">
+                <div class="img-container">
+                    <img id="img" src="assets/without_filter/3.png" alt="">
+                    <!-- <img src="assets/filter/final.jpg" alt=""> -->
+                </div> 
+                <h1>Hey Abigail, <br> will you go out with me?</h1> 
+                <div class="choices">
+                    <button id="yesBtn">Yes</button> 
+                    <button id="noBtn">No</button> 
+                    <span class="error-msg">Oops! Try again.</span>
+                </div>
+            </div>
+            <div class="answer">
+                <div class="wrapper">
+                    Thank you!!!🥳💖✨
+                    <button id="revealArt">Click This, Something I want to show you</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="fireworks"></div>
+        
+        <div class="ui-two">
+            <main>
+            </main>
+            <span>You can try clicking around</span>
+        </div>
+    </div> 
+    <script src="sketch.js"></script> 
+    <script src="script.js"></script>
+</body>
+</html>
